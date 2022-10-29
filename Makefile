@@ -2,11 +2,11 @@
  
 .PHONY: proto
 proto:
-	sudo docker run --rm -v $(pwd):/go -w /go poabob/protoc-builder:latest sh -c 'protoc --proto_path=./protos --micro_out=./protos --go_out=./protos ./protos/base/base.proto'
-# 要修改
+	sudo docker run --rm -v $(pwd):$(pwd) -w $(pwd) -t poabob/proto-builder --proto_path=. --micro_out=. --go_out=:. ./protos/base/base.proto
+
 .PHONY: build
 build:
-	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o base *.go
+	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o base.output *.go
 
 .PHONY: test
 test:

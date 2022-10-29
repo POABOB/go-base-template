@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package base;
+
+option go_package = "./protos/base;base";
+
+service Base {
+  rpc Call (Request) returns (Response);
+//  rpc Stream (StreamingRequest) returns (string StreamingResponse);
+//  rpc PingPong (string Ping) returns (string Pong);
+}
+
+message Request {
+  string name = 1;
+}
+
+message Response {
+  string msg = 1;
+}
+
+// 還有要寫

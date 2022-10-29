@@ -1,3 +1,7 @@
 
 .idea/
-base
+
+base.output
+
+*.pb.go
+*.micro.go
