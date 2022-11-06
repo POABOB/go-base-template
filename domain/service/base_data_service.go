@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/PPOABOB/go-base-template/domain/model"
-	"github.com/PPOABOB/go-base-template/domain/repository"
+	"github.com/POABOB/go-base-template/domain/model"
+	"github.com/POABOB/go-base-template/domain/repository"
 )
 
 // 接口類型

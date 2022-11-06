@@ -3,8 +3,8 @@ package handler
 import (
 	"context"
 
-	"github.com/PPOABOB/go-base-template/domain/service"
-	base "github.com/PPOABOB/go-base-template/protos/base"
+	"github.com/POABOB/go-base-template/domain/service"
+	base "github.com/POABOB/go-base-template/protos/base"
 
 	log "github.com/asim/go-micro/v3/logger"
 )

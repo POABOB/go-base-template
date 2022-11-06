@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/PPOABOB/go-base-template/domain/model"
+	"github.com/POABOB/go-base-template/domain/model"
 
 	"github.com/jinzhu/gorm"
 )

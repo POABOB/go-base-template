@@ -1,0 +1,40 @@
+{"level":"error","ts":"2022-10-30T13:23:38.006+0800","caller":"go-base-template/main.go:36","msg":"error loading source consul: Get \"http://localhost:8500/v1/kv/micro/config?recurse=\": dial tcp [::1]:8500: connect: connection refused"}
+{"level":"fatal","ts":"2022-10-30T13:23:38.007+0800","caller":"go-base-template/main.go:44","msg":"dial tcp 127.0.0.1:3306: connect: connection refused"}
+{"level":"fatal","ts":"2022-10-30T16:12:28.508+0800","caller":"go-base-template/main.go:50","msg":"Error 1049: Unknown database 'paas'"}
+{"level":"fatal","ts":"2022-10-30T16:13:24.491+0800","caller":"go-base-template/main.go:51","msg":"Error 1049: Unknown database 'paas'"}
+{"level":"fatal","ts":"2022-10-30T16:14:29.468+0800","caller":"go-base-template/main.go:51","msg":"Error 1049: Unknown database 'paas-mysql'"}
+{"level":"info","ts":"2022-10-30T16:25:05.164+0800","caller":"go-base-template/main.go:56","msg":"連接mysql 成功"}
+{"level":"info","ts":"2022-10-30T18:33:19.217+0800","caller":"go-base-template/main.go:58","msg":"連接mysql 成功"}
+{"level":"info","ts":"2022-10-30T18:33:47.821+0800","caller":"go-base-template/main.go:58","msg":"連接mysql 成功"}
+{"level":"fatal","ts":"2022-11-06T16:19:38.105+0800","caller":"go-base-template/main.go:55","msg":"Error 1045: Access denied for user ''@'172.18.0.1' (using password: NO)"}
+{"level":"fatal","ts":"2022-11-06T16:21:24.574+0800","caller":"go-base-template/main.go:55","msg":"Error 1045: Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+{"level":"fatal","ts":"2022-11-06T17:30:28.162+0800","caller":"go-base-template/main.go:55","msg":"Error 1045: Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+{"level":"fatal","ts":"2022-11-06T17:31:06.916+0800","caller":"go-base-template/main.go:55","msg":"Error 1045: Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+{"level":"fatal","ts":"2022-11-06T17:32:55.335+0800","caller":"go-base-template/main.go:56","msg":"Error 1045: Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+{"level":"info","ts":"2022-11-06T17:34:06.226+0800","caller":"go-base-template/main.go:59","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T17:51:39.110+0800","caller":"go-base-template/main.go:61","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T17:53:36.856+0800","caller":"go-base-template/main.go:61","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T17:54:29.778+0800","caller":"go-base-template/main.go:61","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T18:20:40.059+0800","caller":"go-base-template/main.go:64","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:02:57.274+0800","caller":"go-base-template/main.go:59","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:02:57.278+0800","caller":"go-base-template/main.go:90","msg":"新增 日誌系统 ！"}
+{"level":"info","ts":"2022-11-06T21:18:54.548+0800","caller":"go-base-template/main.go:59","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:18:54.553+0800","caller":"go-base-template/main.go:91","msg":"新增 日誌系统 ！"}
+{"level":"info","ts":"2022-11-06T21:19:47.708+0800","caller":"go-base-template/main.go:59","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:19:47.711+0800","caller":"go-base-template/main.go:92","msg":"新增 日誌系统 ！"}
+{"level":"info","ts":"2022-11-06T21:21:20.457+0800","caller":"go-base-template/main.go:60","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:21:20.459+0800","caller":"go-base-template/main.go:94","msg":"新增 日誌系统 ！"}
+{"level":"info","ts":"2022-11-06T21:21:38.250+0800","caller":"go-base-template/main.go:60","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:21:38.254+0800","caller":"go-base-template/main.go:84","msg":"新增 日誌系统 ！"}
+{"level":"info","ts":"2022-11-06T21:21:50.935+0800","caller":"go-base-template/main.go:60","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T21:21:50.938+0800","caller":"go-base-template/main.go:84","msg":"新增 日誌系统 ！"}
+{"level":"error","ts":"2022-11-06T22:53:25.904+0800","caller":"go-base-template/main.go:47","msg":"error loading source consul: Unexpected response code: 500"}
+{"level":"fatal","ts":"2022-11-06T22:53:25.920+0800","caller":"go-base-template/main.go:58","msg":"Error 1045: Access denied for user ''@'172.18.0.1' (using password: NO)"}
+{"level":"info","ts":"2022-11-06T22:53:41.719+0800","caller":"go-base-template/main.go:60","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T22:53:41.721+0800","caller":"go-base-template/main.go:84","msg":"新增 日誌系统 ！"}
+{"level":"error","ts":"2022-11-06T22:55:46.412+0800","caller":"go-base-template/main.go:47","msg":"error loading source consul: Unexpected response code: 500"}
+{"level":"fatal","ts":"2022-11-06T22:55:46.428+0800","caller":"go-base-template/main.go:58","msg":"Error 1045: Access denied for user ''@'172.18.0.1' (using password: NO)"}
+{"level":"info","ts":"2022-11-06T22:55:51.738+0800","caller":"go-base-template/main.go:60","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T22:55:51.743+0800","caller":"go-base-template/main.go:84","msg":"新增 日誌系统 ！"}
+{"level":"info","ts":"2022-11-06T22:58:33.456+0800","caller":"go-base-template/main.go:60","msg":"連接 mysql 成功"}
+{"level":"info","ts":"2022-11-06T22:58:33.460+0800","caller":"go-base-template/main.go:84","msg":"新增 日誌系统 ！"}

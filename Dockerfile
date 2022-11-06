@@ -1,4 +1,4 @@
 FROM alpine
-ADD base /base
+ADD base.output /base.output
 COPY filebeat.yml /filebeat.yml
-ENTRYPOINT [ "/base" ]
+ENTRYPOINT [ "/base.output" ]
